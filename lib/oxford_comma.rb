@@ -3,6 +3,6 @@ def oxford_comma(array)
     when 1
       "#{array[0]"
     when 2 
-      array[0...2].join ","
+      array[0...2].join (" and ")
     
 end
